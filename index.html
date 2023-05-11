@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Text Encryptor</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+      <header>
+        <img class="logo" src="img/logo_alura_white.png">
+        <nav>
+            <ul class="nav_pages">
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="#">test</a></li> -->
+            </ul>
+        </nav>
+        <a class="cta" href="contacto.html"><button class="boton">Go to repository</button></a>
+      </header>
+
+      <section class="site-header">
+        <div class="site-header-mask">
+          <h1 class ="site-title">Text Encryptor</h1>
+        </div>
+      </section>
+      
+      <main>
+        <section class="section1">
+          <div class="text-container">
+            <textarea name="main container" placeholder="Enter the text here :)" class="text-box" cols="50" rows="20"></textarea>
+          </div>
+          <div class="alert">
+            <img src="img/alerta.svg" alt="Alert">
+            <p>ㅤOnly lowercase letters and without accent</p>
+          </div>
+          <div class="button-container">
+            <input type="button" class="encrpyt-btn" value="Encrypt">
+            <input type="button" class="decrpyt-btn" value="Decrypt">
+          </div>
+        </section>
+        <section class="section2">
+          <div class="iv-container">
+            <img src="img/Muñeco.svg">
+          </div>
+          <div class="container-p">
+            <h3>no message was <br> found</h3>
+            <p>Enter the text you want to encrypt or <br> decrypted</p>
+          </div>
+          <div class="copy-container">
+            <input type="button" class="bt-copy" value="Copy">
+          </div>
+          <div class="result-container">
+            <textarea name="Text Result" class="text-result" cols="30" rows="10" readonly></textarea>
+          </div>
+        </section>
+      </main>
+      <script src="script.js"></script>
+    </body>

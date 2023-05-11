@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+} 
+
+/* Header */
+nav li, a{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #edf0f1;
+    transition-duration: 0.3s;
+}
+
+header{
+    max-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1c2a3e;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+    transform: scale(0.5);
+    transition-duration: 0.5s;
+}
+.logo:hover{
+    transform: scale(0.55);
+}
+
+.nav_pages{
+    list-style: none;
+}
+.nav_pages li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav_pages li a{
+    transition: all 0.3 ease 0s;
+
+}
+.nav_pages li a:hover{
+    color: #739acf;
+    
+}
+
+.boton{
+    font-family: 'Poppins', sans-serif;
+    padding: 9px 25px;
+    color: #edf0f1;
+    background-color:#2e4566;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.boton:hover{
+    color: #ffffff;
+    background-color: #456696;
+}
+
+/* Header */
+
+/* HOME - Scroll Parallax */
+.site-header{
+    background-image: url(img/bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    min-height: 70vh;
+    max-height: 550px;
+    position: relative;
+}
+
+.site-header-mask{
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 0.5);
+  
+    -webkit-mask: url(img/tree.png);
+    -webkit-mask-position: bottom;
+    -webkit-mask-size: 100%;
+  
+    mask: url(img/tree.png);
+    mask-position: bottom;
+    mask-size: cover;
+    max-height: 800px;
+
+    -webkit-mask-repeat: no-repeat;
+}
+
+.site-title{
+    color: white;
+    text-align: center;
+    font-size: clamp(4rem, 10vw + 0.5rem, 9rem);
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    padding-top: 10%;
+}
+/* HOME - Scroll Parallax */
+
+/* Main - Encrypt :)*/
+main{
+    background-image: url(img/bg2.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f4f4fc;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Left */
+.section1{
+    padding-top: 5%;
+}
+
+.text-box{
+    font-family: 'Poppins', sans-serif;
+    color:#1c2a3e;
+    border: 1px solid white ;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    height: 360px;
+    font-size: 18px;
+    text-transform: lowercase;
+    
+}
+
+.alert{
+    display: flex;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.encrpyt-btn{
+    width: 200px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    background-color: #1c2a3e;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.decrpyt-btn{
+    width: 200px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #1c2a3e;
+    border: 2px solid #1c2a3e;
+    border-radius: 50px;
+    background-color: #f4f4fc;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* Left */
+
+/* right */
+.section2{
+    margin-top: 5%;
+    box-sizing: content-box;
+    width: 400px;
+    height: 525px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+}
+.container-p h3{
+    text-align: center;
+    color: #1c2a3e;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-p p{
+    text-align: center;
+    color: #1c2a3e;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+}
+
+.text-result{
+    background: none;
+    border: none;
+    /* border-radius: 25px; */
+    outline: none;
+    resize: none;
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    line-height: 1.5;
+    padding: 1em;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #1c2a3e;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+
+}
+
+.bt-copy{
+    margin-top: 5%;
+    width: 200px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #1c2a3e;
+    border: 2px solid #1c2a3e;
+    border-radius: 50px;
+    background-color: #f4f4fc;
+    margin-left: 25%;
+    cursor: pointer;
+}
+/* Right */
+
+.hide{
+    display: none;
+}

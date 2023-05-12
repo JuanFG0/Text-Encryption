@@ -160,6 +160,12 @@ main{
     background-color: #1c2a3e;
     margin-right: 10px;
     cursor: pointer;
+    transition: 1s all;
+}
+
+.encrpyt-btn:hover{
+    transform: scale(1.01);
+    background-color: #456696;
 }
 
 .decrpyt-btn{
@@ -173,6 +179,14 @@ main{
     background-color: #f4f4fc;
     margin-right: 10px;
     cursor: pointer;
+    transition: 1s all;
+}
+
+.decrpyt-btn:hover{
+    transform: scale(1.01);
+    background-color: #456696;
+    border: none;
+    color: white;
 }
 
 .button-container p{
@@ -244,7 +258,14 @@ main{
     background-color: #f4f4fc;
     margin-left: 25%;
     cursor: pointer;
+    transition: 1s all;
 }
+.bt-copy:hover{
+    transform: scale(1.01);
+    background-color: #1c2a3e;
+    color: white;
+}
+
 /* Right */
 
 .hide{

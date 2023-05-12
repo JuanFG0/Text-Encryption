@@ -1,5 +1,5 @@
 ## 👽 Challenge Text Encryption | Alura + Oracle ONE
-This project is a simple application that allows the user to encrypt and decrypt the text you want, to encrypt and decrypt the text only lowercase letters are allowed and in case of the Spanish alphabet without accents. 
+This project is a simple application that allows users to encrypt and decrypt the text they want, to encrypt and decrypt the text only lowercase letters are allowed and in the case of the Spanish alphabet without accents.
 ## 💻Languages used
 <p  align="center"> The application uses HTML, CSS and JavaScript 😀<br><br> <img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/0887e2ce-6c88-479e-8f34-c5096e39f17d">  </p>  
 

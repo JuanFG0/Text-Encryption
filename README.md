@@ -3,9 +3,9 @@ This project is a simple application that allows users to encrypt and decrypt th
 ## 💻Languages used
 <p  align="center"> The application uses HTML, CSS and JavaScript 😀<br><br> <img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/0887e2ce-6c88-479e-8f34-c5096e39f17d">  </p>  
 
-## 📚 Encryption Dictionarie
+## 📚 Encryption Dictionary
 
-  The following encryption "dictionarie" are used to encrypt the texts of the user's choice.
+  The following encryption "dictionary" are used to encrypt the texts of the user's choice.
  - 'a' = 'ai'
  - 'e' = 'enter'   
  - 'i' = 'imes'  

@@ -1,7 +1,7 @@
 ## 👽 Challenge Text Encryption | Alura + Oracle ONE
 This project is a simple application that allows the user to encrypt and decrypt the text you want, to encrypt and decrypt the text only lowercase letters are allowed and in case of the Spanish alphabet without accents. 
 ## 💻Languages used
-<p  align="center"> The application uses HTML, CSS and JavaScript 😀<br><br>. <img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/0887e2ce-6c88-479e-8f34-c5096e39f17d">  </p>  
+<p  align="center"> The application uses HTML, CSS and JavaScript 😀<br><br> <img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/0887e2ce-6c88-479e-8f34-c5096e39f17d">  </p>  
 
 ## 📚 Encryption Dictionarie
 
@@ -25,4 +25,4 @@ This project is a simple application that allows the user to encrypt and decrypt
  - It must be possible to convert a word for the encrypted version also return an encrypted word for it original version. For example: "gato" => "gaitober". gaitober" => "gato".
  - The page must have fields for inserting the text to be encrypted or decrypted, and the user must be able to choose between the two options. The result should be displayed on thescreen.
 ## 🕵🏻‍♂️ Author
-@JuanFG0
+[@JuanFG0](https://github.com/JuanFG0)

@@ -25,6 +25,8 @@ This project is a simple application that allows users to encrypt and decrypt th
  - It must be possible to convert a word for the encrypted version also return an encrypted word for it original version. For example: "gato" => "gaitober". gaitober" => "gato".
  - The page must have fields for inserting the text to be encrypted or decrypted, and the user must be able to choose between the two options. The result should be displayed on thescreen.
 ## 🕵🏻‍♂️ Author
-[@JuanFG0](https://github.com/JuanFG0)
-<p  align="center">[@JuanFG0](https://github.com/JuanFG0)<img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/ea7256f2-7cbe-48af-96f5-22d2465503f0"></p>  
+<p  align="center">
+  <a href="https://github.com/JuanFG0">@JuanFG0</a>
+<br><br>. <img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/ea7256f2-7cbe-48af-96f5-22d2465503f0">  </p>  
+
 

@@ -26,4 +26,5 @@ This project is a simple application that allows users to encrypt and decrypt th
  - The page must have fields for inserting the text to be encrypted or decrypted, and the user must be able to choose between the two options. The result should be displayed on thescreen.
 ## 🕵🏻‍♂️ Author
 [@JuanFG0](https://github.com/JuanFG0)
-<p  align="center"><img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/5a373236-8538-45d9-bc4b-97eccf5c9151">  </p>  
+<p  align="center">[@JuanFG0](https://github.com/JuanFG0)<img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/ea7256f2-7cbe-48af-96f5-22d2465503f0"></p>  
+

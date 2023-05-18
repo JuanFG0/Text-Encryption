@@ -27,6 +27,6 @@ This project is a simple application that allows users to encrypt and decrypt th
 ## 🕵🏻‍♂️ Author
 <p  align="center">
   <a href="https://github.com/JuanFG0">@JuanFG0</a>
-<br><br>. <img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/ea7256f2-7cbe-48af-96f5-22d2465503f0">  </p>  
+<br><br> <img src="https://github.com/JuanFG0/Text-Encryption/assets/133284703/ea7256f2-7cbe-48af-96f5-22d2465503f0">  </p>  
 
 
